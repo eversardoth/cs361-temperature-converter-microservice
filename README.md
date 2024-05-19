@@ -3,10 +3,38 @@
 This Javascript-written microservice converts temperatures from Celsius to Fahrenheit via a REST API.
 
 ## Table of Contents
+- [Getting Started](#getting-started)
 - [Requesting Data](#requesting-data)
 - [Receiving Data](#receiving-data)
-- [Example Calls](#example-calls)
+- [Example Call](#example-call)
 - [UML Sequence Diagram](#uml-sequence-diagram)
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm
+
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/eversardoth/cs361-temperature-converter-microservice
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd cs361-temperature-converter-microservice
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+### Running the Microservice
+To start the microservice, run:
+```sh
+node index.js
+```
+The temperature conversion microservice will start on port 5004.
 
 ## Requesting Data
 
