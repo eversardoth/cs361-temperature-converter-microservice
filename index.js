@@ -20,5 +20,5 @@ app.get('/temperature-conversion', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Temperature conversion microservice is running on port ${port}`);
+  console.log(`Temperature conversion (celsius to fahrenheit) microservice is running on port ${port}`);
 });
