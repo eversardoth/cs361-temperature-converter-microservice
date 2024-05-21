@@ -70,7 +70,6 @@ def get_converted_temperature(celsius_temperature):
     except Exception as e:
         print("Error:", e)
 
-# Example call
 get_converted_temperature(73)
 ```
 
